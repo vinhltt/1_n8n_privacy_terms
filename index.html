@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="n8n Automation App for Google services integration. Self-hosted workflow automation tool.">
+    <meta name="description" content="n8n Automation App - A powerful fair-code licensed workflow automation tool that combines AI capabilities with business process automation. Connect different services, automate tasks, and build multi-step AI agents without coding.">
     <!-- Google Site Verification - Mã xác minh từ Google Search Console -->
     <meta name="google-site-verification" content="KqbmonYSYW8muOgotESmdH0aUYZuNefWi_aQYmoIbS8" />
     <meta property="og:url" content="https://n8n.vinhltt.com/">
     <link rel="canonical" href="https://n8n.vinhltt.com/">
     <link rel="privacy-policy" href="privacy.html">
-    <title>n8n Automation App</title>
+    <title>n8n Automation App - Flexible Workflow Automation Tool</title>
     <style>
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
@@ -30,6 +30,10 @@
         h1 {
             color: #2c3e50;
             margin-bottom: 20px;
+        }
+        h2 {
+            color: #3498db;
+            margin-top: 30px;
         }
         .logo {
             font-size: 3em;
@@ -53,6 +57,13 @@
             color: #7f8c8d;
             font-size: 1.1em;
         }
+        .app-purpose {
+            background-color: #f1f7fe;
+            padding: 25px;
+            border-radius: 8px;
+            margin: 30px 0;
+            text-align: left;
+        }
         .features {
             text-align: left;
             max-width: 600px;
@@ -74,6 +85,47 @@
             color: #27ae60;
             font-weight: bold;
         }
+        .highlight-box {
+            background-color: #e8f4fd;
+            border-left: 4px solid #3498db;
+            padding: 15px 20px;
+            margin: 25px 0;
+            text-align: left;
+            border-radius: 4px;
+        }
+        .cards-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+            margin: 30px 0;
+        }
+        .card {
+            background: #f9f9f9;
+            border-radius: 8px;
+            padding: 20px;
+            width: calc(50% - 20px);
+            text-align: left;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        }
+        .testimonial {
+            background: #f5f5f5;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 30px 0;
+            text-align: left;
+            font-style: italic;
+        }
+        .testimonial-author {
+            font-weight: bold;
+            text-align: right;
+            margin-top: 10px;
+        }
+        @media (max-width: 600px) {
+            .card {
+                width: 100%;
+            }
+        }
     </style>
 </head>
 <body>
@@ -81,8 +133,31 @@
         <div class="logo">🔧</div>
         <h1>n8n Automation App</h1>
         <p class="description">
-            Self-hosted workflow automation tool that connects your Google services
+            Flexible workflow automation tool for technical teams that combines AI capabilities with business process automation
         </p>
+        
+        <div class="app-purpose">
+            <h2>What is n8n and Why Use It?</h2>
+            <p>
+                n8n (pronounced n-eight-n) is a fair-code licensed workflow automation tool that helps you connect any app with an API with any other, and manipulate its data with little or no code. Our instance focuses specifically on Google services integration, providing a secure, self-hosted environment where you can:
+            </p>
+            <ul>
+                <li>Create automated workflows between your favorite Google applications</li>
+                <li>Process emails, documents, and spreadsheets automatically</li>
+                <li>Save time by automating repetitive business processes</li>
+                <li>Connect different services together in a visual, easy-to-understand interface</li>
+                <li>Keep complete control over your data with our self-hosted solution</li>
+                <li>Build multi-step AI agents and integrate over 500 applications</li>
+            </ul>
+            <p>
+                Whether you're looking to automate your email responses, synchronize data between applications, or process information from multiple sources, n8n provides the tools you need in a secure, privacy-focused environment.
+            </p>
+        </div>
+        
+        <div class="highlight-box">
+            <h3>The fast way to actually get AI working in your business</h3>
+            <p>With n8n, you can build multi-step agents calling custom tools and integrate any LLM into your workflows as fast as you can drag-n-drop. Self-host everything—including AI models—to protect your data by deploying on-premises.</p>
+        </div>
         
         <div style="margin: 25px 0;">
             <a href="https://n8n.vinhltt.com/" style="display: inline-block; background-color: #3498db; color: white; padding: 12px 25px; text-decoration: none; border-radius: 5px; font-weight: bold;">
@@ -98,15 +173,39 @@
             <a href="terms.html">Terms of Service</a>
         </div>
 
+        <div class="cards-container">
+            <div class="card">
+                <h3>Code When You Need It, UI When You Don't</h3>
+                <p>Unlike other tools that limit you to either a visual building experience or code, n8n gives you the best of both worlds:</p>
+                <ul>
+                    <li>Write JavaScript or Python when needed</li>
+                    <li>Add libraries from npm or Python</li>
+                    <li>Paste cURL requests into your workflow</li>
+                    <li>Merge workflow branches, don't just split them</li>
+                </ul>
+            </div>
+            <div class="card">
+                <h3>Run. Tweak. Repeat.</h3>
+                <p>Enjoy short feedback loops with powerful debugging tools:</p>
+                <ul>
+                    <li>Re-run single steps without re-running the whole workflow</li>
+                    <li>Replay or mock data to avoid waiting for external systems</li>
+                    <li>Debug fast with logs in line with your code</li>
+                    <li>Use templates to jump-start your project</li>
+                </ul>
+            </div>
+        </div>
+
         <div class="features">
-            <h3>Features</h3>
+            <h3>Key Features</h3>
             <ul>
-                <li>Gmail automation and email processing</li>
-                <li>Google Sheets data manipulation</li>
-                <li>Google Drive file management</li>
-                <li>Secure self-hosted environment</li>
-                <li>No data sharing with third parties</li>
-                <li>Complete control over your data</li>
+                <li>Highly customizable workflows with the option to build custom nodes</li>
+                <li>Self-hosted for privacy and security, with control over your data</li>
+                <li>Powerful AI integration capabilities</li>
+                <li>Visual workflow builder with code flexibility</li>
+                <li>500+ pre-built integrations with popular services</li>
+                <li>Secure OAuth 2.0 authentication</li>
+                <li>Chat with your own data through various interfaces</li>
             </ul>
         </div>
 
@@ -116,12 +215,33 @@
                 <li>Gmail API for email automation</li>
                 <li>Google Sheets API for spreadsheet operations</li>
                 <li>Google Drive API for file management</li>
-                <li>Secure OAuth 2.0 authentication</li>
+                <li>Google Calendar for event scheduling and management</li>
+                <li>Google Docs for document creation and editing</li>
+                <li>Google Forms for data collection</li>
             </ul>
         </div>
 
+        <div class="features">
+            <h3>Common Use Cases</h3>
+            <ul>
+                <li>Automatically save email attachments to Google Drive</li>
+                <li>Send personalized emails based on Google Sheets data</li>
+                <li>Create automatic backups of important documents</li>
+                <li>Synchronize data between different Google applications</li>
+                <li>Generate reports and notifications based on spreadsheet changes</li>
+                <li>Create AI agents that can chat with your data</li>
+                <li>Scrape and summarize webpages with AI</li>
+                <li>Build Telegram or Discord bots with AI capabilities</li>
+            </ul>
+        </div>
+
+        <div class="testimonial">
+            <p>"We've sped up our integration of data sources by 25X. It takes me 2 hours max to connect up APIs and transform the data we need. You can't do this that fast in code."</p>
+            <div class="testimonial-author">- Luka Pilic, Marketplace Tech Lead</div>
+        </div>
+
         <p style="margin-top: 40px; color: #95a5a6; font-size: 0.9em;">
-            This application is built using n8n and integrates with Google APIs for automation purposes.
+            This application is built using n8n and integrates with Google APIs for automation purposes. n8n is a fair-code licensed workflow automation tool with over 112k+ stars on GitHub and 200k+ community members.
         </p>
         
         <div style="margin-top: 30px; padding-top: 20px; border-top: 1px solid #ecf0f1;">
